@@ -4,11 +4,11 @@ function yes() {
   text = document.getElementById("mainText");
 
   text.innerHTML = "Evet diyeceğini biliyordummmmm! <br> Teşekkür Ederim";
+  document.getElementById("bugcat").src = "ee9bf7b4bc7cd64143586bf87d7bae81.gif";
 
   document.getElementById("yes").style.display = "none";
   document.getElementById("no").style.display = "none";
 
-  document.getElementById("bugcat").src = "ee9bf7b4bc7cd64143586bf87d7bae81.gif";
 }
 
 function no() {
